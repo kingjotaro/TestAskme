@@ -16,7 +16,7 @@ export function ReactRelayContainer({
   Component: NextComponentType<NextPageContext, any, any>
   props: any
 }) {
-  const environment = useMemo(() => createEnvironment(), [])
+  const environment: any = useMemo(() => createEnvironment(), [])
   return (
     <ReactRelayContext.Provider value={{ environment }}>
       <Suspense fallback={null}>

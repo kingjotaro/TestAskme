@@ -10,8 +10,6 @@
     "test": "jest --watchAll --detectOpenHandles",
     "fixture:user": "tsx src/modules/User/fixture/createUser.ts",
     "fixture:profile": "tsx src/modules/Profile/fixture/createProfile.ts",
-    "qrcode": "tsx scripts/qrcodePost.ts",
-    "charge": "tsx scripts/chargePostRun.ts",
     "build": "rm -rf dist && tsup src"
   },
   "dependencies": {

@@ -5,7 +5,7 @@ import { ProfileConnection } from '../profileType'
 import { Profile, ProfileModel } from '../profileModel'
 import { successField } from '@entria/graphql-mongo-helpers'
 import { ProfileLoader } from '../profileLoader'
-import { debugConsole } from '../../../../test/debubConsole'
+
 
 const profileRegisterMutation = mutationWithClientMutationId({
   name: 'ProfileRegisterMutation',
